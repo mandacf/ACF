@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-07T19:11:01 WIB" name="Default suite" finished-at="2022-09-07T19:11:01 WIB" duration-ms="64">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T19:11:01 WIB" name="Default test" finished-at="2022-09-07T19:11:01 WIB" duration-ms="64">
+      <class name="Ujian.testUjianKedua.MatematikaTest">
+        <test-method is-config="true" signature="instance()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="instance" finished-at="2022-09-07T19:11:01 WIB" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instance -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="befmet" finished-at="2022-09-07T19:11:01 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="addATest()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="addATest" finished-at="2022-09-07T19:11:01 WIB" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addATest -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="befmet" finished-at="2022-09-07T19:11:01 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="minusTest()[pri:1, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="minusTest" finished-at="2022-09-07T19:11:01 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minusTest -->
+        <test-method signature="divisionTest()[pri:2, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="divisionTest" finished-at="2022-09-07T19:11:01 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="befmet" finished-at="2022-09-07T19:11:01 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="modulusTest()[pri:3, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="modulusTest" finished-at="2022-09-07T19:11:01 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modulusTest -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="befmet" finished-at="2022-09-07T19:11:01 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method is-config="true" signature="aft()[pri:0, instance:Ujian.testUjianKedua.MatematikaTest@3232a28a]" started-at="2022-09-07T19:11:01 WIB" name="aft" finished-at="2022-09-07T19:11:01 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aft -->
+      </class> <!-- Ujian.testUjianKedua.MatematikaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
