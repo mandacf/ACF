@@ -40,27 +40,27 @@ public class ByZipCodeCountryCode {
 		
 		dDriven = new Object[intRowNums][intColumnNums];
 		
-		Iterator<Row> r = excelReader.getIter();
-		int a=0;
-		int b =1;
-		while(r.hasNext())
+		Iterator<Row> readExcel = excelReader.getIter();
+		int jmlBaris=0;
+		int urutanNumber =1;
+		while(readExcel.hasNext())
 		{
 			System.out.println("");
-			System.out.println("Data Ke-"+b);
-			Row rows = r.next();
+			System.out.println("Data Ke-"+urutanNumber);
+			Row rows = readExcel.next();
 			for(int j=0;j<intColumnNums;j++)
 			{
 				
-				dDriven[a][j] = excelReader.getCellData(a, j);
+				dDriven[jmlBaris][j] = excelReader.getCellData(jmlBaris, j);
 				if( j==0) {
-					System.out.println("ZIP : "+dDriven[a][j]);
+					System.out.println("ZIP : "+dDriven[jmlBaris][j]);
 				}else {
-					System.out.println("Country Code: "+dDriven[a][j]);
+					System.out.println("Country Code: "+dDriven[jmlBaris][j]);
 				}
 			}
 			System.out.println("=========================");
-			a++;
-			b++;
+			jmlBaris++;
+			urutanNumber++;
 		}
 		
 		return dDriven;		

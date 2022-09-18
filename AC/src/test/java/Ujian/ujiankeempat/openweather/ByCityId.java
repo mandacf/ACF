@@ -40,23 +40,23 @@ public class ByCityId {
 		
 		dDriven = new Object[intRowNums][intColumnNums];
 		
-		Iterator<Row> r = excelReader.getIter();
-		int a=0;
-		int b =1;
-		while(r.hasNext())
+		Iterator<Row> readExcel = excelReader.getIter();
+		int jmlBaris=0;
+		int urutanNumber =1;
+		while(readExcel.hasNext())
 		{
 			System.out.println("");
-			System.out.println("Data Ke-"+b);
-			Row rows = r.next();
+			System.out.println("Data Ke-"+urutanNumber);
+			Row rows = readExcel.next();
 			for(int j=0;j<intColumnNums;j++)
 			{
 				
-				dDriven[a][j] = excelReader.getCellData(a, j);
-				System.out.println("id = "+dDriven[a][j]);
+				dDriven[jmlBaris][j] = excelReader.getCellData(jmlBaris, j);
+				System.out.println("id = "+dDriven[jmlBaris][j]);
 			}
 			System.out.println("=========================");
-			a++;
-			b++;
+			jmlBaris++;
+			urutanNumber++;
 		}
 		
 		return dDriven;		
