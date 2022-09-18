@@ -9,7 +9,7 @@ import io.restassured.http.ContentType;
 
 public class SampleTestAssured {
 	
-	JSONObject req;
+	JSONObject req;//ngeset data json objek dari body
 	
 	@BeforeTest
 
@@ -30,13 +30,13 @@ public class SampleTestAssured {
 		req.put("last_name", "sarta");
 		req.put("subject_id", 4);
 		
-		given().//lampirkan
+		given().//nge hide base ulr yang udh dikasih, untuk ngeset kebutuhnnya
 			header("Content-Type", "application/json").
 			accept(ContentType.JSON).
 			contentType(ContentType.JSON).
 			body(req.toJSONString()).
 		when().
-			post("/users").
+			post("/users").//alamat post nya
 		then().
 			statusCode(200).
 			log().
