@@ -34,14 +34,14 @@ public class TestLoginForm {
 	@Test(priority=0)
 	public void testValidLogin()throws InterruptedException {
 		formPage.FormLoginPage("", "");
-		assertEquals(formPage.getTxtDashboard(), "Dashboard");
+		assertEquals(formPage.getTxtDashboard(10), "Dashboard");
 //		assertTrue(loginPage.getTxtEmp().contains("Employee"));
 	}
 	
 	@Test(priority=1)
 	public void testInValidLogin()throws InterruptedException {
 		formPage.FormLoginDua("manda@gmail.com", "admin");
-		assertEquals(formPage.getTxtAccount(), "No customer account found");
+		assertEquals(formPage.getTxtAccount(10), "No customer account found");
 	}
 	
 	@Test(priority=2)

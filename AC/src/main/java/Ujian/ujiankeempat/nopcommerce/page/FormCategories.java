@@ -56,6 +56,7 @@ private WebDriver driver;
 		Thread.sleep(1000);
 	}
 	
+	
 	public String getTxtSearchCom() {
 		return txtComputer.getText();
 	}

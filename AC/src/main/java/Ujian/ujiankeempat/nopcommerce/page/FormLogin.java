@@ -1,9 +1,13 @@
 package Ujian.ujiankeempat.nopcommerce.page;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Ujian.ujiankeempat.nopcommerce.drivers.DriverSingleton;
 
@@ -49,7 +53,6 @@ public class FormLogin {
 		btnRemember.click();
 		Thread.sleep(1000);
 		btnSubmit.click();
-		Thread.sleep(1000);
 	}
 	
 	public void FormLoginDua(String email, String password)throws InterruptedException {
@@ -88,11 +91,11 @@ public class FormLogin {
 		btnSubmit.click();
 	}
 	
-	public String getTxtDashboard() {
+	public String getTxtDashboard(int delays) {
 		return txtDashboard.getText();
 	}
 	
-	public String getTxtAccount() {
+	public String getTxtAccount(int delays) {
 		return txtAccount.getText();
 	}
 	
